@@ -13,3 +13,6 @@ openai의 api를 사용하여 chat-bot을 구현하고 Kobert Model을 사용하
    파이썬 Source : app.py
    HTML : template/index.html
    배포된 embedding model : embeddingada002.pt
+
+5. 실행 방법
+   python app.py
