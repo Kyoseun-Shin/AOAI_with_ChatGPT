@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot Demo</title>
+</head>
+<body>
+    <h1>Chatbot Demo</h1>
+    <form action="/chat" method="POST">
+        <input type="textarea" name="user_input" placeholder="Enter your message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    <hr>
+    <h2>Response:</h2>
+    <p id="response"></p>
+
+    <script>
+			const form = document.querySelector();
+			const responseElement = document.getElementById('response');
+
+			form.addEventListener('submit', async (event) => {
+				event.preventDefault();
+				const formData = new FormData(form);
+				const user_input = formData.get('user_input');
+
+				const response = await fetch('/chat', {
+					method: 'POST',
+					body: new URLSearchParams({ 'user_input': user_input }),
+				});
+				responseElement.innerText = response;
+			});
+    </script>
+
+</body>
+</html>
