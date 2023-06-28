@@ -1,5 +1,5 @@
 # AOAI_with_ChatGPT
-openai의 api를 사용하여 chat-bot을 구현하고 Kobert Model을 사용하여 embedding을 수행하는 프로그램
+openai의 api를 사용하여 중국집 서빙용 chat-bot을 구현하고 Kobert Model을 사용하여 embedding을 수행하는 프로그램
 
 1. Chatbot을 구현하기 위해 openai api를 사용
    (https://mtcaichat01.openai.azure.com/openai/deployments/gpt432k/chat/completions?api-version=2023-03-15-preview (GPT4 32K token model)사용)
