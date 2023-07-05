@@ -14,7 +14,7 @@ openai의 api를 사용하여 중국집 서빙용 chat-bot을 구현하고 Kober
 
 6. File 구성
 
-   파이썬 Source : app.py
+   파이썬 Source : app3.py
    HTML : template/index.html
    사전 학습된 모델 : chatgpt_model/*
 
